@@ -194,8 +194,8 @@ input[type=submit] {
 /* ----------------------------------------- */
 
 header {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.71)),to(rgba(0, 0, 0, 0.71))), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)), url(img/hero.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.71)),to(rgba(0, 0, 0, 0.71))), url(img/hero-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)), url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -257,6 +257,18 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* mobile navi*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    color: #fff;
+    font-size: 200%;
+}
 
 /* sticky navi*/
 .sticky {
@@ -411,8 +423,8 @@ header {
 /* ----------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.80)),to(rgba(0, 0, 0, 0.80))),url('img/back-customers.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),url('img/back-customers.jpg');
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.80)),to(rgba(0, 0, 0, 0.80))),url('img/back-customers-min.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),url('img/back-customers-min.jpg');
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
